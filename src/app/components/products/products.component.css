@@ -1,0 +1,42 @@
+.card-top{
+  padding-top: 30px;
+  border-bottom:1px solid black;
+  padding-bottom: 10px;
+}
+
+
+.item{
+  margin-right:  15px;
+  text-align: center;
+  font-family:cursive;
+  transition: 0.3s ease-in-out;
+}
+.item:hover{
+  color:#10375c;
+  font-weight: bolder;
+  transform: scale(1.1);
+  cursor:pointer;
+}
+
+img{
+  width:100px;
+  height: 100px;
+}
+
+.card{
+  padding:15px;
+  margin:20px;
+  width:320px;
+
+}
+
+.card img{
+  padding-left:35px;
+  width: 250px;
+  transition: 0.3s ease-in-out;
+}
+
+.card img:hover{
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}

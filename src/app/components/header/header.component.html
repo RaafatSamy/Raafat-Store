@@ -1,19 +1,20 @@
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
-  <div class="container-fluid">
+  <div class="container">
     <div class="logo">
-      <!-- <a routerLink="/products">  </a> -->
-      <a class="navbar-brand" routerLink="/products"  style="font-size: 30px;"> <i class="fas fa-store-alt"></i>   Raafat Store</a>
+      <a class="navbar-brand" routerLink="/products"  style="font-size: 30px;"> <i class="fas fa-store-alt"></i> <strong>Raafat Store</strong> </a>
+
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <input type="text" class="form-control" style="width:600px">
+    </button> -->
+    <div class="search">
+      <input type="text" class="form-control" placeholder="Search .....!" >
     </div>
     <div>
-        <button class="btn btn-primary">
+        <button class="btn btn-primary" routerLink="/cart">
           <i class="fas fa-cart-plus" style="font-size: 30px;"></i>
-          <div class="badge bg-danger" style="font-size: 10px;">5</div>
+          <div class="badge bg-danger" style="font-size: 10px;">{{notificationNumber}}</div>
         </button>
     </div>
   </div>

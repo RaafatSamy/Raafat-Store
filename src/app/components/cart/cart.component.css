@@ -1,0 +1,37 @@
+.table-div{
+  margin-top: 90px;
+  border:1px solid black;
+  border-radius: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h5{
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+  color: orangered;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+table img{
+  width:130px;
+  height: 130px;
+}
+
+table .btn-danger{
+  width:61px;
+  margin-bottom: 10px;
+}
+
+
+.empty-cart{
+  text-align: center;
+  color:red;
+  font-family:cursive;
+  padding:30px
+}
+
+.empty-cart img{
+  margin-bottom: 25px;
+}

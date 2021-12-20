@@ -1,19 +1,33 @@
-/*
-.logo .fa-store-alt:hover,
-.navbar-brand:hover,
-.logo .fa-store-alt:focus,
-.navbar-brand:focus
-{
-  color:orangered;
-}
-
-.fa-store-alt{
-  color: white;
-  font-size: 30px;
-  margin-right: 5px;
-}
-
 .navbar-brand{
   font-size: 30px;
   font-family: fantasy;
-} */
+  font-weight: bold;
+
+}
+.navbar-brand strong{
+  padding:5px;
+  font-size: 25px;
+}
+
+.navbar-brand strong:hover{
+  color:#10375c
+}
+
+.navbar-brand i:hover{
+  color: #032442;
+}
+.search{
+  width:700px;
+  height: 40px;
+  margin-top: 4px;
+
+}
+
+.search input{
+  color:orangered;
+  font-family:cursive;
+  font-size: large;
+}
+
+
+
