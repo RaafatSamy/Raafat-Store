@@ -9,7 +9,7 @@
       <span class="navbar-toggler-icon"></span>
     </button> -->
     <div class="search">
-      <input type="text" class="form-control" placeholder="Search .....!" >
+      <input type="text" class="form-control" placeholder="Search .....!" [(ngModel)]="searchTrem" (keyup)="search($event)" >
     </div>
     <div>
         <button class="btn btn-primary" routerLink="/cart">

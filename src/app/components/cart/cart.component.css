@@ -1,6 +1,6 @@
 .table-div{
   margin-top: 90px;
-  border:1px solid black;
+  border:1px solid red;
   border-radius: 20px;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -34,4 +34,24 @@ table .btn-danger{
 
 .empty-cart img{
   margin-bottom: 25px;
+}
+
+
+.top-button{
+  margin-bottom: 30px;
+}
+
+.price-info{
+  border: 1px solid black;
+  width:220px;
+  height:100px;
+  padding:9px;
+  border-radius: 8px;
+  margin-left: 20px;
+  color:darkcyan
+}
+
+.price-info:hover{
+  background-color: rgb(52, 172, 52);
+  color:white
 }
